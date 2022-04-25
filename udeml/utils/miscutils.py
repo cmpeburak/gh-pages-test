@@ -23,7 +23,7 @@ def get_callable_kwargs(func: Callable) -> List[str]:
 
 
 def filter_unsupported_kwargs(logger: Optional[Callable] = None):
-    """Decorateor for filtering out kwargs which are not supported.
+    """Decorator for filtering out kwargs which are not supported.
 
     Args:
         logger: A callable that takes a string and logs it. In this case, it will
