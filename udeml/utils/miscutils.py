@@ -1,7 +1,7 @@
 """
 Miscellaneous utilities that do not fit nicely within other utils.
 
-This is for test.
+This is for testing only.
 """
 import importlib
 import inspect
