@@ -10,8 +10,6 @@ from functools import wraps
 from itertools import zip_longest
 from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple, Union
 
-import pandas as pd
-
 from udeml.assets import b
 
 
