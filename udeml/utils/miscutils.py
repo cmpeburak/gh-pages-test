@@ -12,6 +12,8 @@ from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple, Union
 
 import pandas as pd
 
+from udeml.assets import b
+
 
 def get_callable_kwargs(func: Callable) -> List[str]:
     """Get list of arguments for a callable.
