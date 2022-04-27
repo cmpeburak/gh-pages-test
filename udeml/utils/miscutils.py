@@ -24,6 +24,7 @@ def get_callable_kwargs(func: Callable) -> List[str]:
     Returns:
         List of argument names accepted by the callable.
     """
+    b.test()
     signature = inspect.signature(func)
     return list(signature.parameters.keys())
 
