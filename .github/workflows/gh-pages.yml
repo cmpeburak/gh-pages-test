@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          python3 -m pip install pdoc>=11.0.0
+          python3 -m pip install -r ./requirements.txt
 
       - run: pdoc --docformat google udeml/ -o docs
 
